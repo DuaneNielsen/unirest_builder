@@ -1,0 +1,25 @@
+{
+  "schema": {
+    "calcmethods": [
+      {
+      }
+    ],
+    "urls": [
+      {
+        "name": "metrics",
+        "src": "",
+        "var": "",
+        "url": "/manage/v2/clusters?view=metrics&format=json&period=raw",
+        "data_type": "json",
+        "xml_ns": ""
+      }
+      {
+        "name": "db1",
+        "src": "",
+        "var": "",
+        "url": "/manage/v2/databases/diesel-content?view=status&format=json",
+        "data_type": "json",
+        "xml_ns": ""
+      }
+    ],
+    "metrics": [

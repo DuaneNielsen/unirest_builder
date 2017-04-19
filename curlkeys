@@ -1,0 +1,1 @@
+curl -s --digest -u admin:CAdemo123 'http://localhost:8002/manage/v2/databases/diesel-content?view=status&format=json' | jsonpath $.database-status.status-properties.rate-properties.rate-detail | jq 'add | keys'
